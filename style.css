@@ -41,6 +41,14 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+.textpad{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.point{
+  cursor: pointer;
+}
 .flip-card {
     position: relative;
     display: inline-block;
@@ -99,7 +107,7 @@ body{
     border: 0px;
     border-radius: 8px;
     width: 10vw;
-    height: 4vh;
+    /*height: 4vh;*/
     background-color: #303664;
     transition: all 0.2s;
   }
