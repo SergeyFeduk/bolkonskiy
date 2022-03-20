@@ -2,7 +2,118 @@
 <html>
     <head>
         <title>Наталья 200 метров от вас...</title>
-        <link rel="stylesheet" href="style.css">
+        <!--<link rel="stylesheet" href="style.css">-->
+        <style>
+            body{
+  background-color: #00020f;
+
+}
+
+@font-face{
+  font-family: 'BebasNeue';
+  src: url('BebasNeue Bold.otf');
+}
+
+.bebra{
+  font-family: 'BebasNeue';
+}
+
+.standart{
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.standartBig{
+  font-size: 40px;
+  line-height: 30px;
+}
+.sheader{
+  font-size: 80px;
+  line-height: 100px;
+}
+.header{
+  font-size: 160px;
+  line-height: 100px;
+}
+
+.textdarkColor{
+  color: #303664;
+}
+.textligthColor{
+  color: #dfe3ff;
+}
+.center{
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flip-card {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    border: 0px;
+    margin: 0vh 10vw 5vh 10vw;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #dfe3ff;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  #question-box{
+    background-color: #dfe3ff;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 650px;
+  }
+
+  .button{
+    border: 0px;
+    border-radius: 8px;
+    width: 10vw;
+    height: 4vh;
+    background-color: #303664;
+    transition: all 0.2s;
+  }
+  .button:hover{
+    border-radius: 15px;
+    background-color: #1f244a;
+  }
+        </style>
     </head>
     <body>
 
